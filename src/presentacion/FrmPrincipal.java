@@ -101,10 +101,10 @@ public class FrmPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_itemEventosActionPerformed
 
     private void itemEntradasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_itemEntradasActionPerformed
-        FrmProducto frm=new FrmProducto(this);
-        desktopPane.add(frm);
-        frm.toFront();
-        frm.setVisible(true);
+        //FrmProducto frm=new FrmProducto(this);
+       // desktopPane.add(frm);
+        //frm.toFront();
+       // frm.setVisible(true);
     }//GEN-LAST:event_itemEntradasActionPerformed
 
     /**

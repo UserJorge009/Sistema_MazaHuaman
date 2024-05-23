@@ -35,7 +35,7 @@ public class EventoDaoImpl implements EventoDao<Evento>{
                 ps.setString(1, "%" + texto + "%");
                 rs = ps.executeQuery();
                 while (rs.next()) {
-                    registros.add(new Evento(rs.getInt(1), rs.getString(2),rs.getNString(3),rs.getNString(4),rs.getString(5),rs.getBigDecimal(6)));
+                    registros.add(new Evento(rs.getInt(1), rs.getString(2),rs.getString(3),rs.getString(4),rs.getString(5),rs.getBigDecimal(6)));
                 }
                 ps.close();
                 rs.close();
